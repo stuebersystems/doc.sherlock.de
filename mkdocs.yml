@@ -3,14 +3,18 @@ copyright: © 2019 STÜBER SYSTEMS GmbH
 extra_css:
     - assets/css/custom.css
 markdown_extensions:
-  - admonition
+    - admonition
 theme: 
     name: null
     custom_dir: 'theme'
     language: de
+    direction:
+    palette:
+        primary:
+        accent:
     font:
-      text: Roboto
-      code: Roboto Mono
+        text: Roboto
+        code: Roboto Mono
     favicon: assets/logos/favicon.ico
     logo: 'assets/logos/sherlock.logo.svg'
     include_search_page: false
