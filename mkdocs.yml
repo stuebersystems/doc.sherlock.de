@@ -1,0 +1,29 @@
+site_name: CONFIRE SHERLOCK
+copyright: © 2019 STÜBER SYSTEMS GmbH
+extra_css:
+    - assets/css/custom.css
+markdown_extensions:
+  - admonition
+theme: 
+    name: null
+    custom_dir: 'theme'
+    language: de
+    font:
+      text: Roboto
+      code: Roboto Mono
+    favicon: assets/logos/favicon.ico
+    logo: 'assets/logos/sherlock.logo.svg'
+    include_search_page: false
+    search_index_only: true
+    static_templates:
+      - 404.html
+  
+nav:
+    - Überblick: index.md
+    - Einführung: introduction.md
+    - Was ist neu?: changelog.md
+    - Voraussetzungen: requirements.md
+    - So gehen Sie vor: howto.md
+    - Tipps & Tricks: tips.md
+    - Die API: api.md
+    - Die CONSOLE: console.md

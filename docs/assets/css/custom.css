@@ -1,0 +1,26 @@
+figure.center img {
+    display: block;
+    margin: 0 auto;
+}
+figure.center figcaption
+{
+	font-size: smaller;
+	padding: 5px;
+    text-align: center;
+}
+
+@media only screen and (min-width: 45em) {
+	.md-footer-legal {
+		float: right;
+	}
+}
+
+.md-footer-legal {
+    padding: .9rem 0;
+    margin: 0 .4rem;
+	font-size: .64rem;
+}
+
+.md-footer-legal a {
+    padding: .2rem;
+}
