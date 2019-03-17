@@ -26,7 +26,7 @@ theme:
         text: Roboto
         code: Roboto Mono
     favicon: assets/logos/favicon.ico
-    logo: 'assets/logos/sherlock.logo.svg'
+    logo: 'assets/logos/logo.svg'
     include_search_page: false
     search_index_only: true
     static_templates:
