@@ -1,9 +1,17 @@
+# Project information
 site_name: CONFIRE SHERLOCK
+site_description: 'CONFIRE SHERLOCK Dokumentation'
+site_author: 'STÜBER SYSTEMS GmbH'
+site_url: 'https://doc.sherlock3.stueber.de'
+
+# Copyright
 copyright: © 2019 STÜBER SYSTEMS GmbH
-extra_css:
-    - assets/css/custom.css
-markdown_extensions:
-    - admonition
+
+# Repository
+repo_name: 'stuebersystems/doc.sherlock.de'
+repo_url: 'https://github.com/stuebersystems/doc.sherlock.de'
+
+# Theming
 theme: 
     name: null
     custom_dir: 'theme'
@@ -12,8 +20,8 @@ theme:
     feature:
         tabs: false
     palette:
-        primary:
-        accent:
+        primary: 'indigo'
+        accent: 'amber'
     font:
         text: Roboto
         code: Roboto Mono
@@ -23,7 +31,16 @@ theme:
     search_index_only: true
     static_templates:
       - 404.html
+
+# Customization
+extra_css:
+    - assets/css/custom.css
+    
+# Extensions    
+markdown_extensions:
+    - admonition
   
+# Navigation  
 nav:
     - Überblick: index.md
     - Einführung: introduction.md
