@@ -28,7 +28,7 @@ Dieses Repository ist ein Git-Repository. Um das Repository auf deinem lokalen C
 
 3. Tippe den Befehl `git clone https://github.com/stuebersystems/doc.sherlock.de.git` ein, um das Repository zu klonen.
 
-## Repository als Zip-Archive herunterladen
+## Repository als Zip-Archiv herunterladen
 
 Willst du mit Git erstmal nichts zu tun haben, kannst Du das Repository auch als Zip-Archiv herunterladen:
 
