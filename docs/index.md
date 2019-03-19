@@ -1,6 +1,6 @@
 # Über diese Dokumentation
 
-Dies ist die elektronische Dokumentation zu [CONFIRE SHERLOCK 3](https://sherlock.stueber.de).
+Dies ist die elektronische Dokumentation zur Software [CONFIRE SHERLOCK 3](https://sherlock.stueber.de). 
 
-Das Dokumentationsportal von STÜBER SYSTEMS finden Sie unter [doc.stueber.de](http://doc.stueber.de).
+Eine englische Version dieser Dokumentation finden Sie unter [doc.sherlock3.stueber.co.uk](https://doc.sherlock3.stueber.co.uk).
 
