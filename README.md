@@ -1,4 +1,4 @@
-![Build status](https://ci.appveyor.com/api/projects/status/0ori5mbfpciabfa3?svg=true)
+[![Build status](https://ci.appveyor.com/api/projects/status/0ori5mbfpciabfa3?svg=true)](https://ci.appveyor.com/project/stueber/doc-sherlock-de)
 
 # CONFIRE SHERLOCK Dokumentation
 
