@@ -1,6 +1,6 @@
 # Die CONFIRE SHERLOCK CONSOLE
 
-Die CONFIRE SHERLOCK CONSOLE ist eine Kommandozeilenanwendung, die automatisch bei jeder Installation von CONFIRE SHERLOCK mitinstalliert wird. Die CONFIRE SHERLOCK CONSOLE kann z.B. im Rahmen von administrativen Skripten eingesetzt werden, um CONFIRE SHERLOCK fernzubedienen. Zudem ist die CONFIRE SHERLOCK CONSOLE Open Source, d.h. der gesamte Quellcode ist auf [GitHub](https://github.com/stuebersystems/sherlock.console) gehostet und dient zugleich als technische Dokumentation der \[CONFIRE SHERLOCK API\].
+Die CONFIRE SHERLOCK CONSOLE ist eine Kommandozeilenanwendung, die automatisch bei jeder Installation von CONFIRE SHERLOCK mitinstalliert wird. Die CONFIRE SHERLOCK CONSOLE kann z.B. im Rahmen von administrativen Skripten eingesetzt werden, um CONFIRE SHERLOCK fernzubedienen. Zudem ist die CONFIRE SHERLOCK CONSOLE Open Source, d.h. der gesamte Quellcode ist auf [GitHub](https://github.com/stuebersystems/sherlock.console) gehostet und dient zugleich als technische Dokumentation der [CONFIRE SHERLOCK API].
 
 Zum Starten der CONFIRE SHERLOCK CONSOLE öffnen Sie die Windows-Kommandozeile und tippen Sie
 
@@ -420,5 +420,4 @@ Beispiel:
 cfs prepare-system FE520676B1A1D933674F3632EAEEB163D1E88244F5EB1DEDABAB2319EEA010EB
 ```
 
-\[CONFIRE SHERLOCK API\]: api.md
-
+[CONFIRE SHERLOCK API]: /api.md
