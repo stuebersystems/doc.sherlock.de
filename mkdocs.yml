@@ -5,7 +5,7 @@ site_author: 'STÜBER SYSTEMS GmbH'
 site_url: 'https://doc.sherlock3.stueber.de'
 
 # Copyright
-copyright: © 2019 STÜBER SYSTEMS GmbH
+copyright: © 2020 STÜBER SYSTEMS GmbH
 
 # Repository
 repo_name: 'Auf GitHub'
@@ -13,24 +13,29 @@ repo_url: 'https://github.com/stuebersystems/doc.sherlock.de'
 
 # Theming
 theme: 
-    name: null
-    custom_dir: 'theme'
+    name: material
+    custom_dir: overrides
     language: de
-    direction:
     feature:
-        tabs: false
+        - tabs
+        - instant
     palette:
         primary: 'indigo'
         accent: 'amber'
-    font:
-        text: Roboto
-        code: Roboto Mono
+    font: false
     favicon: assets/logos/favicon.ico
     logo: 'assets/logos/logo.svg'
     include_search_page: false
     search_index_only: true
     static_templates:
       - 404.html
+
+extra:
+  legal:
+    - label: Impressum
+      link: https://twitter.com/squidfunk
+    - label: Datenschutz
+      link: https://twitter.com/squidfunk
 
 # Customization
 extra_css:

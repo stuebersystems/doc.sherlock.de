@@ -1,0 +1,39 @@
+pool:
+  vmImage: 'windows-2019'
+    
+steps:
+- task: UsePythonVersion@0
+  inputs:
+    versionSpec: '3.x'
+    addToPath: true
+    architecture: 'x64'
+- task: PowerShell@2
+  displayName: Install MkDocs
+  inputs:
+    targetType: 'inline'
+    script: |
+      pip install mkdocs mkdocs-material
+    failOnStderr: true
+    workingDirectory: '$(Build.SourcesDirectory)'
+- task: PowerShell@2
+  displayName: Build with MkDocs
+  inputs:
+    targetType: 'inline'
+    script: |
+      mkdocs build
+    failOnStderr: true
+    workingDirectory: '$(Build.SourcesDirectory)'
+- task: ArchiveFiles@2
+  displayName: 'Create Zip archive'
+  inputs:
+    rootFolderOrFile: 'site'
+    includeRootFolder: false
+    archiveType: 'zip'
+    archiveFile: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
+    replaceExistingArchive: true
+- task: PublishBuildArtifacts@1
+  displayName: 'Publish Zip archive'
+  inputs:
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+    ArtifactName: 'drop'
+    publishLocation: 'Container'
