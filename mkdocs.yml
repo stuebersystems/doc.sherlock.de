@@ -30,12 +30,13 @@ theme:
     static_templates:
       - 404.html
 
+# Legal links
 extra:
   legal:
     - label: Impressum
-      link: https://twitter.com/squidfunk
+      link: https://www.stueber.de/imprint.php
     - label: Datenschutz
-      link: https://twitter.com/squidfunk
+      link: https://legal.stueber.de/
 
 # Customization
 extra_css:
