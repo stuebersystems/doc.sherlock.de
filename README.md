@@ -1,8 +1,8 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/0ori5mbfpciabfa3?svg=true)](https://ci.appveyor.com/project/stueber/doc-sherlock-de)
+[![Build Status](https://dev.azure.com/stuebersystems/Websites/_apis/build/status/docs/doc.sherlock.de?branchName=master)](https://dev.azure.com/stuebersystems/Websites/_build/latest?definitionId=46&branchName=master)
 
 # CONFIRE SHERLOCK Dokumentation
 
-Dies ist die deutsche Dokumentation zu [CONFIRE SHERLOCK](https://sherlock.stueber.de). Die Dokumentation ist Open Source und wir haben sie mit [MkDocs](https://www.mkdocs.org) und [Material for MkDocs](https://squidfunk.github.io/mkdocs-material) realisiert. Push-Requests im master-branch werden in [AppVeyor](https://www.appveyor.com) getriggert, so dass jede Änderung automatisch veröffentlicht wird.
+Dies ist die deutsche Dokumentation zu [CONFIRE SHERLOCK](https://sherlock.stueber.de). Die Dokumentation ist Open Source und wir haben sie mit [MkDocs](https://www.mkdocs.org) und [Material for MkDocs](https://squidfunk.github.io/mkdocs-material) realisiert. 
 
 ## MkDocs unter Windows installieren
 
