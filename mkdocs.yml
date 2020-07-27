@@ -36,7 +36,7 @@ extra:
     - label: Impressum
       link: https://www.stueber.de/imprint.php
     - label: Datenschutz
-      link: https://legal.stueber.de/
+      link: https://legal.stueber.de/privacy.php
 
 # Customization
 extra_css:

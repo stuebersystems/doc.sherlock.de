@@ -6,7 +6,7 @@ Dies ist die deutsche Dokumentation zu [CONFIRE SHERLOCK](https://sherlock.stueb
 
 ## MkDocs unter Windows installieren
 
-1. Installiere [Python](https://www.python.org). Gehe dazu auf die [Python-Download-Seite](https://www.python.org/downloads/) und lade Dir die aktuellste Version für Windows herunter. Für die Version 3.7.2 wäre dies beispielsweise der Link [Windows x86-64 executable installer](https://www.python.org/ftp/python/3.7.2/python-3.7.2-amd64.exe).
+1. Installiere [Python](https://www.python.org). Gehe dazu auf die [Python-Download-Seite](https://www.python.org/downloads/) und lade Dir die aktuellste Version für Windows herunter. 
 
 2. Starte das Installationspaket und beantworte alle Fragen.
 
