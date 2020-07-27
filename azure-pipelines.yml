@@ -20,7 +20,7 @@ steps:
   inputs:
     targetType: 'inline'
     script: |
-      mkdocs build
+      mkdocs build -q
     failOnStderr: true
     workingDirectory: '$(Build.SourcesDirectory)'
 - task: ArchiveFiles@2
