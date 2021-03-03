@@ -17,7 +17,8 @@ theme:
     custom_dir: overrides
     language: de
     features:
-        - instant
+        - navigation.tabs
+        - navigation.instant
     palette:
         primary: 'indigo'
         accent: 'amber'
